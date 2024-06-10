@@ -1,4 +1,5 @@
 <?php
+
 echo"Duplicação de Elementos".PHP_EOL;
 
 for ($i = 0; $i <= 5; $i++) {
