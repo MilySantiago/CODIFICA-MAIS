@@ -1,0 +1,34 @@
+<?php
+echo "SISTEMA DE CONTROLE DE FUNCIONÁRIOS E SALÁRIOS".PHP_EOL;
+
+$funcionarios = [
+    ["nome" => "Pedro", "salarioBase" => 2500,"horasExtras" => 10],
+    ["nome" => "Renata", "salarioBase" => 3000,"horasExtras" => 5],
+    ["nome" => "Sérgio", "salarioBase" => 2800,"horasExtras" => 8],
+    ["nome" => "Vanessa", "salarioBase" => 3200,"horasExtras" => 12],
+    ["nome" => "André", "salarioBase" => 1700,"horasExtras" => 0]
+];
+
+function calcularSalarioTotal($salarioBase, $horasExtras, $valorHoraExtra){
+   
+    $salarioTotal = $salarioBase + ($horasExtras * $valorHoraExtra);
+    return $salarioTotal; 
+}
+
+
+function listarFuncionarios($funcionarios)
+{
+    foreach ($funcionarios as $funcionario){
+        $valorHoraExtra = 1.5;
+        $salarioTotal = calcularSalarioTotal($funcionario["salarioBase"], $funcionario["horasExtras"], $valorHoraExtra);
+
+        echo "|Nome do Funcionário:". $funcionario["nome"] . PHP_EOL;
+        echo "|Salário Base: R$ " . number_format($funcionario["salarioBase"], 2). PHP_EOL;
+        echo "|Horas extras trabalhadas: " . $funcionario["horasExtras"] . PHP_EOL;
+        echo "|Salário Total: R$ " . number_format($salarioTotal, 2).PHP_EOL;
+        echo "--------------------------".PHP_EOL;
+    }
+}
+
+listarFuncionarios($funcionarios);
+?>
