@@ -12,7 +12,7 @@ function calcularDesconto($valorCompra)
 {
     if ($valorCompra < 100) {
         return null;
-    } elseif ($valorCompra >= 100 && $valorCompra <= 500) {
+    } elseif ($valorCompra >= 100 && $valorCompra < 500) {
         return aplicarDesconto($valorCompra, 10);
     } else {
         return aplicarDesconto($valorCompra, 20);
