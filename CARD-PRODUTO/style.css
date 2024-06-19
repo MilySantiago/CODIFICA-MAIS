@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.matriz{
+display: flex;
+width: 560px;
+height: 250px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.80);
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.imagem-produto{
+flex: 0.5;  
+border: none;
+overflow: hidden;
+
+}
+.imagem-produto img {
+    height: 100%; 
+    border-radius: 10px 0px 0px 10px;
+ }
+
+.especificacoes{
+   border: none;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   margin: 1px;
+   padding: 1rem
+
+}
+.coluna-um{
+    flex: 1;
+    display: flex;
+    border: none;
+   justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.produto{
+    border: none; 
+    
+}
+.preco{
+    border: none; 
+    
+}
+.coluna-dois{
+    flex: 1;
+    display: flex;
+    border: none;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
+} .coluna-dois button{
+    border: none;
+    margin: 1px;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 10px;
+    
+    
+} button.escolhido{
+    background-color: black;
+    border-radius: 10px;
+    border:1px;
+    color: white;
+    margin: 1px;
+    padding: 6px;
+}
+.coluna-tres{
+    flex: 1;
+    display: flex;
+    border: 1px;
+    border-color: black;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ 
+button.compra{
+   background-color: black;
+   border-radius: 10px;
+   border:1px;
+   color: white;
+   margin: 1px;
+   padding: 6px;
+}button.adicionar{
+    border-color: black;
+    border: 1px;
+    margin: 1px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 6px
+}
+button.curtir{
+ border-radius: 10px;
+ border: 1px;
+ margin: 1px;
+ border-color: black;
+ background-color: white;
+ color: red;
+ padding: 6px
+}
+
+.coluna-quatro{
+    flex: 1;
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 1px;
+}
