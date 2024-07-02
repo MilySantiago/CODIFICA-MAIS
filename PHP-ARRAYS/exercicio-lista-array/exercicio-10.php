@@ -10,4 +10,5 @@ for($i=0; $i <=4; $i ++){
 for ($i = 4; $i >= 0; $i--) {
  $listaInversa=$listaNumerica[$i] ;
  echo $listaInversa;
+ 
 }

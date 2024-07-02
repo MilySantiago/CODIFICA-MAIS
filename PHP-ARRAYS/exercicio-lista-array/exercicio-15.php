@@ -18,5 +18,5 @@ echo "Encontrar Elemento e Índice" .PHP_EOL;
         }
     }
     if ($verificado != true){
-        echo "Este número $numero não está  na lista.";
+        echo "Este número $numero não está na lista.";
     }
