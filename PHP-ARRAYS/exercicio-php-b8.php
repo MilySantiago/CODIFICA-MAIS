@@ -1,36 +1,26 @@
 <?php
-echo "CÁLCULO DE DESCONTO PROGRESSIVO". PHP_EOL;
 
-$valorCompra = readline("Digite o valor da compra: R$ ");
 
-function aplicarDesconto($valorCompra, $percentualDesconto)
-{	
-return $valorCompra - ($valorCompra * $percentualDesconto/ 100);
+echo "CHURRASCO COM AMIGOS". PHP_EOL;
+
+$participantes = readline('Quantas pessoas participaram? ');
+ $itensComprados = ['Carne', 'Cerveja', 'Refrigerante', 'Pão de alho'];
+ $valorDosItens = [350, 200, 154, 60];
+ 
+ function calcularPorpessoa($participantes, $valorDosItens) {
+     $valorTotal = array_sum($valorDosItens);
+     $valorPraPagar = $valorTotal / $participantes;
+     return $valorPraPagar;
+ }
+  if ($participantes <= 1) {
+    echo "Esta festa virou um enterro, ninguém veio". PHP_EOL;
+    exit;
 }
-
-function calcularDesconto($valorCompra)
-{
-    if ($valorCompra < 100) {
-        return null;
-    } elseif ($valorCompra >= 100 && $valorCompra < 500) {
-        return aplicarDesconto($valorCompra, 10);
-    } else {
-        return aplicarDesconto($valorCompra, 20);
-    }
-}
-
-
-$valorTotal = calcularDesconto($valorCompra);
-
-echo "O preço total da compra dos produtos foi de : R$ $valorCompra" . PHP_EOL;
-if ($valorTotal==null){
-    echo "Esta compra não teve desconto";
-}else{
-      echo "Valor total da compra usando o desconto: R$ " . $valorTotal . PHP_EOL;
-}
-
-
-
-
-
-?>
+ 
+    $valorAPagar = calcularPorpessoa ($participantes, $valorDosItens);
+     echo "Todos irao pagar $valorAPagar" . PHP_EOL;
+     $valorMaximo = max($valorDosItens);
+     $indiceMaisCaro = array_search($valorMaximo, $valorDosItens);
+     $itemMaiorValor = $itensComprados[$indiceMaisCaro];
+     
+     echo "Este é o item mais caro é $itemMaiorValor" . PHP_EOL;
