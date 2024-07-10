@@ -1,4 +1,4 @@
-USE gestao-produtos;
+USE gestao_produtos;
 
 
 UPDATE  produtos
