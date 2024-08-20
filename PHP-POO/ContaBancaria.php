@@ -20,23 +20,15 @@ class ContaBancaria {
         if(($this->saldo >0)){
             $this->saldo=$this->saldo - $valorSacado;
         } else {
-            echo "Saldo Insuficiente";
+            echo "Saldo Insuficiente".PHP_EOL;
         }
         
     }
     
     public function exibirSaldo() {
-        echo "Saldo Atual". $this->saldo. "<br>";    
+        echo "Nome:".$this->nomeDotitular. "|".PHP_EOL;
+        echo "Id da conta:". $this->idDaConta."|".PHP_EOL;
+        echo "Saldo Atual:". $this->saldo;  
     }
 
 }
-
-
-$novaConta = new ContaBancaria(1, 'Teste', 0);
-$novaConta->exibirSaldo();
-$novaConta->depositar(100);
-$novaConta->exibirSaldo();
-$novaConta->sacar(20);
-$novaConta->exibirSaldo();
-
-
