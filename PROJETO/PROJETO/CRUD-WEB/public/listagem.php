@@ -1,7 +1,4 @@
-<?php
-session_start();
 
-?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,10 +17,10 @@ session_start();
     
 <div class="coluna">
 
-<div class="addItem">
+<div>
 
 
-<button> Novo Item </button>
+<a href="/adicionar.php"class="addItem"> Novo Item </a>
 
 </div>
 
@@ -45,51 +42,74 @@ session_start();
 
 <div class= "informacoes"> 
 
-<div class=lado-um> 
 
+
+
+<div class=lado-um> 
 <div class="separacao"> 
+
 <div class="id"> #000001</div>
-<div class="secao"> <button>Vestuário </button> </div>
+<div class="secao"> <button class="vestuarioum">Vestuário </button> </div>
 </div>
 
+
 <div class="produto"> Camisa Codifica+ </div>
-<div class="botao-editar"> <button> Editar </button>
+<div> <button  class="botao-editar"> Editar </button>
 </div>
 </div>
 
 <div class=" lado-dois"> 
 <div class="chave"> SKU: 123456 </div>
 <div class="quantidade"> Quantidade: 100 </div>
-<div class="botao-deletar"> <button> Deletar </button>
+<div> <button class="botao-deletar"> Deletar </button>
 </div>
 </div>
 
 </div>
 
+
 </div>
+
+
+
+
 
 
 
 <div class="ItemDois"> 
 
+
+<div class="colunadois">
+
+<div class= "informacoesdois"> 
+
 <div class="lado-tres"> 
 
+<div class="separacaodois"> 
 
-<div class="separacao dois"> 
 <div class="idDois"> #000002</div>
-<div class="secaoDois"> Eletronico </div>
+<div class="secaoDois"> <button class="eletronico"> Eletronico </button> </div>
 </div>
+
+
 
 <div class="produtoDois"> Notebook </div>
-<div class="botaoeditar">  <button> Editar </button>
+<div>  <button class="botaoeditar"> Editar </button>
 </div>
 </div>
-
+</div>
 <div class="lado-quatro"> 
 <div class="chaveDois"> SKU:123456 </div>
 <div class= "quantidadeDois"> Quantidade: 45 </div>
-<div class="botaod-dois"> <button> Deletar </button>
+<div> <button class="botaod-dois"> Deletar </button>
+
 </div>
+
+
+
+</div>
+</div>
+
 </div>
 
 
@@ -101,23 +121,36 @@ session_start();
 
 <div class="ItemTres"> 
 
-<div class="lado-cinco"> 
+
+ <div class= "colunatres">
 
 
-<div class="separacao tres"> 
+
+<div class= "informacoestres">
+
+<div class="lado-cinco">
+
+<div class="separacaotres"> 
 <div class="idTres"> #000003</div>
-<div class= "secaoTres"> Escritório </div>
+<div class="secaoTres" > <button class="escritorio">Escritório</button></div>
 </div>
 
 <div class="produtoTres"> Caderno de anotação </div>
-<div class="editar">  <button> Editar </button>
+<div>  <button class="editar"> Editar </button>
 </div>
+</div>
+
 </div>
 
 <div class="lado-seis"> 
 <div class="chaveTres"> SKU: 123456 </div>
 <div class="quantidadeTres"> Quantidade: 45 </div>
-<div class="deletar"> <button> Deletar </button>
+<div> <button class="deletar"> Deletar </button>
+
+
+</div>
+
+
 
 </div>
 
@@ -144,7 +177,10 @@ session_start();
 
 
 
+ <div>
+ 
 
+ </div>
 
 
 

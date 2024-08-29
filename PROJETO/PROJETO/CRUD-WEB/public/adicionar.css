@@ -1,0 +1,116 @@
+.master{
+    margin: 0;
+    font-weight: 500;
+    font-style: normal; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0.5rem;
+    background-color: #424242;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height:20rem;
+    width:30rem;
+    padding: 0.5rem;
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    background-color: #F5F5F5;
+}
+.titulo{
+    border: #F5F5F5;
+    background-color: #229799;
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    
+}
+
+.inserir-nome{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding: 0.5rem;
+    margin: 1px;
+}
+
+.inserir-chave{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding: 0.5rem;
+}
+
+.inserir-unidade{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding: 0.5rem;
+    margin: 1px;
+}
+
+
+.inserir-valor{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding:0.5rem;
+    margin: 1px;
+}
+
+.inserir-quantidade{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding:0.5rem;
+    margin: 1px;
+}
+
+.categoria{
+    box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border-color: #F5F5F5;
+    padding:0.5rem;
+    margin: 1px;
+   
+}
+.editar{
+    text-decoration: none;
+    margin: 0.5rem;
+    background-color: #48CFCB;
+    border: none;
+    height: 3rem;
+    width:5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    text-decoration: none;
+    color:black;
+}
+.editar:hover{
+    cursor: pointer;
+    background-color: #229799;
+}
+
+.espacamento{
+    display:flex;
+   justify-content: space-around;
+}
+.voltar{
+    text-decoration: none;
+    margin: 0.5rem;
+    background-color:#424242;
+    border: none;
+    height: 3rem;
+    width:5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    text-decoration: none;
+    color:black;
+}
+.voltar:hover{
+    cursor: pointer;
+    background-color: #F5F5F5;
+}
