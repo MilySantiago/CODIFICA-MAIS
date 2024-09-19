@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="editar.css">
+    <link rel="stylesheet" href="css/editar.css">
     <title>Editar um Item</title>
 </head>
 <body>
 
 <div class="master">
-    <div class="container">
+<div class="container">
    
 
 <div class="titulo"> Editar Item</div>
