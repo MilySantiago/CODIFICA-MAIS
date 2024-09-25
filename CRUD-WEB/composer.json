@@ -2,7 +2,7 @@
     "name": "codifica/crud-web",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "APP\\": "src/"
         }
     },
     "authors": [

@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit15af833bbc2e3486c8556e8bcdebbb52
+class ComposerStaticInitabccd275d88a210d78c995178c6a41d8
 {
     public static $prefixLengthsPsr4 = array (
-        'C' => 
+        'A' => 
         array (
-            'Codifica\\CrudWeb\\' => 17,
+            'APP\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Codifica\\CrudWeb\\' => 
+        'APP\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit15af833bbc2e3486c8556e8bcdebbb52
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit15af833bbc2e3486c8556e8bcdebbb52::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit15af833bbc2e3486c8556e8bcdebbb52::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit15af833bbc2e3486c8556e8bcdebbb52::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitabccd275d88a210d78c995178c6a41d8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitabccd275d88a210d78c995178c6a41d8::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitabccd275d88a210d78c995178c6a41d8::$classMap;
 
         }, null, ClassLoader::class);
     }

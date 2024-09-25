@@ -63,8 +63,8 @@
 
 
 <div class="espacamento">
-<a href="/editar.php"> <button class= "editar">Editar Item</button></a>
-<a href="/listagem.php"> <button class= "voltar">Lista</button></a>
+<a href="/editar"> <button class= "editar">Editar Item</button></a>
+<a href="/listar"> <button class= "voltar">Lista</button></a>
 
 </div>
 </div>

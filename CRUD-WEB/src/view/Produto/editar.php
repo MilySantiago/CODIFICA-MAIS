@@ -49,8 +49,8 @@
 
 
 <div class= "espacamento">
-<a href="/adicionar.php"> <button class="criar">Criar Item</button></a>
-<a href="/listagem.php"> <button class="listar"> Lista</button></a>
+<a href="/criar"> <button class="criar">Criar Item</button></a>
+<a href="/listar"> <button class="listar"> Lista</button></a>
 
 
 

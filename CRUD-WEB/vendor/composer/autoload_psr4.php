@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Codifica\\CrudWeb\\' => array($baseDir . '/src'),
+    'APP\\' => array($baseDir . '/src'),
 );

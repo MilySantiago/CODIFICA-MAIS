@@ -1,11 +1,11 @@
 <?php
-namespace App\Controller;
+namespace APP\Controller;
 
 class ProdutosController{
 
 public function listar() {
 
- require __DIR__ .  '/../view/Produto/listagem.php';
+require __DIR__ .  '/../view/Produto/listagem.php';
 }
 
 public function criar() {

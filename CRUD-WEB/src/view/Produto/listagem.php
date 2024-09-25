@@ -18,7 +18,7 @@
 <div>
 
 
-<a href="/adicionar.php"class="addItem"> Novo Item </a>
+<a href="/criar"class="addItem"> Novo Item </a>
 
 </div>
 
@@ -52,7 +52,7 @@
 
 
 <div class="produto"> Camisa Codifica+ </div>
-<div> <button  class="botao-editar"> Editar </button>
+<div> <a href="/editar"><button  class="botao-editar"> Editar </button></a>
 </div>
 </div>
 
@@ -92,7 +92,7 @@
 
 
 <div class="produtoDois"> Notebook </div>
-<div>  <button class="botaoeditar"> Editar </button>
+<div> <a href="/editar"><button class="botaoeditar"> Editar </button></a>
 </div>
 </div>
 </div>
@@ -134,7 +134,7 @@
 </div>
 
 <div class="produtoTres"> Caderno de anotação </div>
-<div>  <button class="editar"> Editar </button>
+<div> <a href="/editar"><button class="editar"> Editar </button></a>
 </div>
 </div>
 
