@@ -11,7 +11,7 @@ class ConexaoBD
     {
         try {
             $connection = new PDO(
-                "mysql:host=localhost;dbname=estoque",
+                "mysql:host=localhost;dbname=controles_produto",
                 'root',
                 ''
             );
@@ -19,6 +19,7 @@ class ConexaoBD
             $connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
             return $connection;
+            echo "boa";
         } catch (PDOException $e) {
             die('Erro ao conectar com o banco de dados' . $e->getMessage());
         }
